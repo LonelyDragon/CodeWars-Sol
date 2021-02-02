@@ -14,4 +14,4 @@ def find_outlier(integers):
     if len(odd) == 1:
         return odd.pop(0)
     else:
-        return even.pop(0) 
+        return even.pop(0)
