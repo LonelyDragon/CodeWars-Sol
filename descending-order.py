@@ -11,4 +11,7 @@ Input: 123456789 Output: 987654321
 '''
 
 def descending_order(num):
-    sorted = map(int, str(num))
+    sorted = list(str(num))
+    sorted.sort(reverse=True)
+    res_num = ''.join(sorted)
+    return int(res_num)
